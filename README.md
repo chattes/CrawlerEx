@@ -19,3 +19,8 @@ Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_do
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/crawler_ex](https://hexdocs.pm/crawler_ex).
 
+=======
+## Crawler
+
+**A crawler that will crawls websites**
+>>>>>>> cd00b0e01b45608878c79d537eb867507ce9a9ec
