@@ -1,3 +1,3 @@
 ## Crawler
 
-** A crawler that will crawls websites **
+** A crawler that will crawls websites
