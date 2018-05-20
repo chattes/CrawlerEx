@@ -4,15 +4,28 @@ defmodule CrawlerEx do
   """
 
   @doc """
-  Hello world.
+  Crawls Website and parses video links
 
   ## Examples
 
-      iex> CrawlerEx.hello
-      :world
+      iex> :foo
+      :foo
 
   """
-  def hello do
-    :world
+  def crawl(url) do
+    HTTPoison.get(url)
   end
+
+  def parse_response(response) do
+
+    case response do
+      {:ok, %{ body: body, status_code: 200}} -> { :ok, body } 
+
+      {:ok, %{body: _, status_code: _ }} -> :notgood 
+
+      {:error, _ } -> :notgood  
+    end
+
+  end
+
 end

@@ -1,0 +1,66 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CLI_H	deps/file_system/c_src/mac/cli.h	2;"	d
+CLI_NAME	deps/file_system/c_src/mac/cli.h	7;"	d
+COMPILED_AT	deps/file_system/c_src/mac/common.h	13;"	d
+FLAG_CHECK_STDERR	deps/file_system/c_src/mac/common.h	21;"	d
+FPRINTF_FLAG_CHECK	deps/file_system/c_src/mac/common.h	15;"	d
+FSEVENTSBITS	deps/file_system/c_src/mac/common.h	31;"	d
+_str	deps/file_system/c_src/mac/common.h	10;"	d
+_xstr	deps/file_system/c_src/mac/common.h	11;"	d
+append_path	deps/file_system/c_src/mac/main.c	/^static void append_path(const char* path)$/;"	f	file:
+callback	deps/file_system/c_src/mac/main.c	/^static void callback(__attribute__((unused)) FSEventStreamRef streamRef,$/;"	f	file:
+cli_info	deps/file_system/c_src/mac/cli.h	/^struct cli_info {$/;"	s
+cli_info_help	deps/file_system/c_src/mac/cli.c	/^const char* cli_info_help[] = {$/;"	v
+cli_info_purpose	deps/file_system/c_src/mac/cli.c	/^const char* cli_info_purpose = "A flexible command-line interface for the FSEvents API";$/;"	v
+cli_info_usage	deps/file_system/c_src/mac/cli.c	/^const char* cli_info_usage = "Usage: fsevent_watch [OPTIONS]... [PATHS]...";$/;"	v
+cli_parser	deps/file_system/c_src/mac/cli.c	/^int cli_parser (int argc, const char** argv, struct cli_info* args_info)$/;"	f
+cli_parser_free	deps/file_system/c_src/mac/cli.c	/^void cli_parser_free (struct cli_info* args_info)$/;"	f
+cli_parser_init	deps/file_system/c_src/mac/cli.c	/^void cli_parser_init (struct cli_info* args_info)$/;"	f
+cli_parser_release	deps/file_system/c_src/mac/cli.c	/^static void cli_parser_release (struct cli_info* args_info)$/;"	f	file:
+cli_print_help	deps/file_system/c_src/mac/cli.c	/^void cli_print_help (void)$/;"	f
+cli_print_info_dict	deps/file_system/c_src/mac/cli.c	/^static void cli_print_info_dict (const void *key,$/;"	f	file:
+cli_print_version	deps/file_system/c_src/mac/cli.c	/^void cli_print_version (void)$/;"	f
+cli_show_plist	deps/file_system/c_src/mac/cli.c	/^void cli_show_plist (void)$/;"	f
+config	deps/file_system/c_src/mac/main.c	/^} config = {$/;"	v	typeref:struct:__anon1	file:
+default_args	deps/file_system/c_src/mac/cli.c	/^static void default_args (struct cli_info* args_info)$/;"	f	file:
+file_events_flag	deps/file_system/c_src/mac/cli.h	/^  bool file_events_flag;$/;"	m	struct:cli_info
+flags	deps/file_system/c_src/mac/main.c	/^  FSEventStreamCreateFlags flags;$/;"	m	struct:__anon1	file:
+format	deps/file_system/c_src/mac/main.c	/^  int                      format;$/;"	m	struct:__anon1	file:
+format_arg	deps/file_system/c_src/mac/cli.h	/^  int format_arg;$/;"	m	struct:cli_info
+fsevent_watch_common_h	deps/file_system/c_src/mac/common.h	2;"	d
+fsevent_watch_compat_h	deps/file_system/c_src/mac/compat.h	13;"	d
+ignore_self_flag	deps/file_system/c_src/mac/cli.h	/^  bool ignore_self_flag;$/;"	m	struct:cli_info
+inputs	deps/file_system/c_src/mac/cli.h	/^  char** inputs;$/;"	m	struct:cli_info
+inputs_num	deps/file_system/c_src/mac/cli.h	/^  unsigned inputs_num;$/;"	m	struct:cli_info
+kFSEventStreamCreateFlagFileEvents	deps/file_system/c_src/mac/compat.c	/^FSEventStreamCreateFlags  kFSEventStreamCreateFlagFileEvents        = 0x00000010;$/;"	v
+kFSEventStreamCreateFlagIgnoreSelf	deps/file_system/c_src/mac/compat.c	/^FSEventStreamCreateFlags  kFSEventStreamCreateFlagIgnoreSelf        = 0x00000008;$/;"	v
+kFSEventStreamCreateFlagMarkSelf	deps/file_system/c_src/mac/compat.c	/^FSEventStreamCreateFlags  kFSEventStreamCreateFlagMarkSelf          = 0x00000020;$/;"	v
+kFSEventStreamEventFlagItemChangeOwner	deps/file_system/c_src/mac/compat.c	/^FSEventStreamEventFlags   kFSEventStreamEventFlagItemChangeOwner    = 0x00004000;$/;"	v
+kFSEventStreamEventFlagItemCreated	deps/file_system/c_src/mac/compat.c	/^FSEventStreamEventFlags   kFSEventStreamEventFlagItemCreated        = 0x00000100;$/;"	v
+kFSEventStreamEventFlagItemFinderInfoMod	deps/file_system/c_src/mac/compat.c	/^FSEventStreamEventFlags   kFSEventStreamEventFlagItemFinderInfoMod  = 0x00002000;$/;"	v
+kFSEventStreamEventFlagItemInodeMetaMod	deps/file_system/c_src/mac/compat.c	/^FSEventStreamEventFlags   kFSEventStreamEventFlagItemInodeMetaMod   = 0x00000400;$/;"	v
+kFSEventStreamEventFlagItemIsDir	deps/file_system/c_src/mac/compat.c	/^FSEventStreamEventFlags   kFSEventStreamEventFlagItemIsDir          = 0x00020000;$/;"	v
+kFSEventStreamEventFlagItemIsFile	deps/file_system/c_src/mac/compat.c	/^FSEventStreamEventFlags   kFSEventStreamEventFlagItemIsFile         = 0x00010000;$/;"	v
+kFSEventStreamEventFlagItemIsSymlink	deps/file_system/c_src/mac/compat.c	/^FSEventStreamEventFlags   kFSEventStreamEventFlagItemIsSymlink      = 0x00040000;$/;"	v
+kFSEventStreamEventFlagItemModified	deps/file_system/c_src/mac/compat.c	/^FSEventStreamEventFlags   kFSEventStreamEventFlagItemModified       = 0x00001000;$/;"	v
+kFSEventStreamEventFlagItemRemoved	deps/file_system/c_src/mac/compat.c	/^FSEventStreamEventFlags   kFSEventStreamEventFlagItemRemoved        = 0x00000200;$/;"	v
+kFSEventStreamEventFlagItemRenamed	deps/file_system/c_src/mac/compat.c	/^FSEventStreamEventFlags   kFSEventStreamEventFlagItemRenamed        = 0x00000800;$/;"	v
+kFSEventStreamEventFlagItemXattrMod	deps/file_system/c_src/mac/compat.c	/^FSEventStreamEventFlags   kFSEventStreamEventFlagItemXattrMod       = 0x00008000;$/;"	v
+kFSEventStreamEventFlagOwnEvent	deps/file_system/c_src/mac/compat.c	/^FSEventStreamEventFlags   kFSEventStreamEventFlagOwnEvent           = 0x00080000;$/;"	v
+latency	deps/file_system/c_src/mac/main.c	/^  CFTimeInterval           latency;$/;"	m	struct:__anon1	file:
+latency_arg	deps/file_system/c_src/mac/cli.h	/^  double latency_arg;$/;"	m	struct:cli_info
+main	deps/file_system/c_src/mac/main.c	/^int main(int argc, const char* argv[])$/;"	f
+mark_self_flag	deps/file_system/c_src/mac/cli.h	/^  bool mark_self_flag;$/;"	m	struct:cli_info
+no_defer_flag	deps/file_system/c_src/mac/cli.h	/^  bool no_defer_flag;$/;"	m	struct:cli_info
+parse_cli_settings	deps/file_system/c_src/mac/main.c	/^static inline void parse_cli_settings(int argc, const char* argv[])$/;"	f	file:
+paths	deps/file_system/c_src/mac/main.c	/^  CFMutableArrayRef        paths;$/;"	m	struct:__anon1	file:
+sinceWhen	deps/file_system/c_src/mac/main.c	/^  FSEventStreamEventId     sinceWhen;$/;"	m	struct:__anon1	file:
+since_when_arg	deps/file_system/c_src/mac/cli.h	/^  UInt64 since_when_arg;$/;"	m	struct:cli_info
+sprintb	deps/file_system/c_src/mac/common.h	/^sprintb(char *buf, unsigned short v, char *bits)$/;"	f
+stdin_callback	deps/file_system/c_src/mac/main.c	/^static void stdin_callback(CFFileDescriptorRef fdref, CFOptionFlags callBackTypes, void *info)$/;"	f	file:
+watch_root_flag	deps/file_system/c_src/mac/cli.h	/^  bool watch_root_flag;$/;"	m	struct:cli_info
