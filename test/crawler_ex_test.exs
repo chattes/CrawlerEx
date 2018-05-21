@@ -15,7 +15,7 @@ defmodule CrawlerExTest do
   end
 
   test "parses the response ok" do
-    assert CrawlerEx.parse_response({ :ok, %{body: {}, status_code: 200} }) == { :ok, body }
+    assert { :ok, _ } = CrawlerEx.parse_response({ :ok, %{body: {}, status_code: 200} })
   end
 
   test "parses the response error codes" do
